@@ -4,7 +4,7 @@
 /**
 * main - Entry begins
 * Return: nothing, return void
-* */
+*/
 
 int main(void)
 {
