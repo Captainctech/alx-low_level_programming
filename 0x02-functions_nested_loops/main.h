@@ -1,8 +1,8 @@
-#ifndef catain_H
-#define catain_H
+#ifndef main_H
+#define main_H
 
 /*
-* File: catain.h
+* File: main.h
 * Auth: Adeyemi israel
 * Desc: Header file containing declarations for all functions
 * used in the 0x02-functions_nested_loops directory.
