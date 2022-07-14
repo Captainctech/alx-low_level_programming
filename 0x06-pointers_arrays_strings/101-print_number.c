@@ -18,6 +18,7 @@ void print_number(int n)
 	a5 = (n / 10000) % 10; s5 = s4 + a5;
 	a6 = (n / 1000) % 10; s6 = s5 + a6; a7 = (n / 100) % 10; s7 = s6 + a7;
 	a8 = (n / 10) % 10; s8 = s7 + a8; a9 = n % 10;
+	
 	if (n < 0)
 	{
 		_putchar('-');
@@ -61,4 +62,4 @@ void print_number(int n)
 		_putchar('0' + a8);
 	}
 	_putchar('0' + a9);
-}
+u}
