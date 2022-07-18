@@ -3,8 +3,9 @@
 /**
  * _strspn - Gets the length of a prefix substring.
  * Return: The number of bytes in s which
- *         consist only of bytes from accept.
+ * consist only of bytes from accept.
  */
+
 unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int bytes = 0;
@@ -19,13 +20,12 @@ unsigned int _strspn(char *s, char *accept)
 				bytes++;
 				break;
 			}
-
 			else if (accept[index + 1] == '\0')
+			{
 				return (bytes);
+			}
 		}
-
 		s++;
 	}
-
 	return (bytes);
 }
