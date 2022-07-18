@@ -1,9 +1,4 @@
-/*
- * File: 4-strpbrk.c
- * Auth: Brennan D Baraban
- */
-
-#include "holberton.h"
+#include "main.h"
 
 /**
  * _strpbrk - Searches a string for any of a set of bytes.
@@ -13,6 +8,7 @@
  * Return: If a set is matched - a pointer to the matched byte.
  *         If no set is matched - NULL.
  */
+
 char *_strpbrk(char *s, char *accept)
 {
 	int index;
@@ -21,12 +17,10 @@ char *_strpbrk(char *s, char *accept)
 	{
 		for (index = 0; accept[index]; index++)
 		{
-			if (*s == accept[index])
-				return (s);
+			if (*s == accept[index]);
+			return (s);
 		}
-
 		s++;
 	}
-
 	return ('\0');
 }
